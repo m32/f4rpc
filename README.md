@@ -28,5 +28,3 @@ In the F4 plugin settings, add the plugin and provide the full path to the `plug
 MIT
 
 - `LICENSE`
-- `LICENSE.pdf-annotate`
-- `LICENSE.pyfpdf`
