@@ -19,14 +19,17 @@ pip install f4rpc
 
 ## Quick Start
 
-- Copy the `mydrive-py` directory—which contains the plugin for F4—to any location on your computer (ideally where you store other plugins), and then place the `f4rpc` directory inside it.
+- Copy the `plugins/mydrive-py` directory—which contains the plugin for F4—to any location on your computer (ideally where you store other plugins), and then place the `f4rpc` directory inside it.
 
 - Edit the `manifest.json` file, ensuring that the `entrypoint` parameter correctly points to the `plugin.py` file.
 
 - Grant execution permissions to the `plugin.py` file.
 
+- Adjust the first line starting with # in `plugin.py`
+
 - In the F4 plugin settings, add the plugin and provide the full path to the `plugin.py` file.
 
+- Restart (or launch a new instance of f4) and check for changes in the menu after pressing Alt+F1
 
 ## License
 
