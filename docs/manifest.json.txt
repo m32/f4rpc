@@ -1,0 +1,19 @@
+{
+  "id": "com.company.mydrive-py",
+  "name": "Python VFS Plugin",
+  "version": "0.0.1",
+  "author": "Your name",
+  "description": "An f4 plugin.",
+  "entrypoint": "python3 /devel/bin/f4x/mydrive-py/plugin.py",
+  "category": "filesystem",
+            "archive"
+            "editor"
+            "filesystem"
+            "network"
+            "panel"
+            "service"
+            "tools"
+            "viewer"
+            "other"
+  "permissions": null,
+}

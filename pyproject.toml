@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "f4rpc"
+description = "F4 manager RPC in Python."
+authors = [{ name = "Grzegorz Makarewicz", email = "mak@trisoft.com.pl" }]
+maintainers = [{ name = "Grzegorz Makarewicz", email = "mak@trisoft.com.pl" }]
+readme = "README.md"
+version = "0.0.1"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications :: Email",
+    "Topic :: Security :: Cryptography",
+    "Topic :: Office/Business",
+    "Topic :: Text Processing",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+]
+
+[project.urls]
+Source = "https://github.com/m32/f4rpc"
+"Bug Reports" = "https://github.com/m32/f4rpc/issues"
+
+[tool.check-wheel-contents]
+package = "./f4rpc"
