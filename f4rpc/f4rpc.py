@@ -3,7 +3,7 @@
 import logging
 import sys
 
-import f4msgpack
+from . import f4msgpack
 
 log = logging.getLogger(__name__)
 sys.stdin = open(sys.stdin.fileno(), 'rb', 0)
